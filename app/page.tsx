@@ -11,10 +11,11 @@ export default async function page(){
   return(
     <main className="relative">
 
-      <AuroraBackground className="fixed top-0 h-full -z-50 w-full"/>
+      <AuroraBackground className="h-screen -z-50 w-full">
       <Hero member={data.followers}
       projects={data.public_repos}
       />
+    </AuroraBackground>
 
       <Sosial id={'sosial'}/>
       <Footer/>
