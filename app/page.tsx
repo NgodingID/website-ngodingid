@@ -2,6 +2,11 @@ import { AuroraBackground } from "@/components/ui/aurora-background";
 import Hero from "./components/Hero";
 import Sosial from "./components/sosial";
 import Footer from "./components/Footer";
+type AuroraBackgroundProps = {
+  className?: string;
+  children: React.ReactNode; // wajib
+};
+
 
 
 export default async function page(){
