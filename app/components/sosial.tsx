@@ -9,7 +9,7 @@ export type SosialProps = {
 
 export default function sosial({id}:SosialProps){
     return(
-        <section id={id} className="h-[90vh] bg-gray-50 flex justify-evenly flex-col items-center">
+        <section id={id} className="h-[90vh] bg-white flex justify-evenly flex-col items-center">
             <div className="flex flex-col text-center gap-4">
                  <h1 className="text-red-500 text-4xl max-w-3xl font-bold">Join ke komunitas kami</h1>
             <p className="text-gray-500 max-md:text-lg text-wrap max-w-md:">Terhubung dengan para developer lain</p>

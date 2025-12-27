@@ -1,10 +1,6 @@
 import Hero from "./components/Hero";
 import Sosial from "./components/sosial";
 import Footer from "./components/Footer";
-type AuroraBackgroundProps = {
-  className?: string;
-  children: React.ReactNode; // wajib
-};
 
 
 
@@ -15,7 +11,6 @@ export default async function page(){
   return(
     <main className="relative">
 
-     
       <Hero member={data.followers}
       projects={data.public_repos}
       />
