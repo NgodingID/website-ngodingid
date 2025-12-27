@@ -1,4 +1,3 @@
-import { AuroraBackground } from "@/components/ui/aurora-background";
 import Hero from "./components/Hero";
 import Sosial from "./components/sosial";
 import Footer from "./components/Footer";
@@ -16,12 +15,11 @@ export default async function page(){
   return(
     <main className="relative">
 
-      <AuroraBackground className="h-screen -z-50 w-full">
+     
       <Hero member={data.followers}
       projects={data.public_repos}
       />
-    </AuroraBackground>
-
+      
       <Sosial id={'sosial'}/>
       <Footer/>
     </main>
